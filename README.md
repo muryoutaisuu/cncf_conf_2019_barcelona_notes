@@ -16,12 +16,14 @@ Notes, links etc. by me, Natalie Fioretti
 #### Kubernetes Jobs and the Sidecar Problem
 
 - Sidecar containers will run indefinitely, even if the main containers was completed/failed
-- *If you have a Job with two containers one of which is actually doing the main processing of the job and the other is just facilitating it, you encounter a problem when the main process finishes; your sidecar container will carry on running so the job will never finish.* - https://github.com/kubernetes/enhancements/blob/master/keps/sig-apps/sidecarcontainers.md#jobs
+- *If you have a Job with two containers one of which is actually doing the main processing of the job and the other is just facilitating it, you encounter a problem when the main process finishes; your sidecar container will carry on running so the job will never finish.* [[source](https://github.com/kubernetes/enhancements/blob/master/keps/sig-apps/sidecarcontainers.md#jobs)]
+- [presentation](https://static.sched.com/hosted_files/kccnceu19/9d/Kubernetes%20Jobs%20and%20the%20Sidecar%20Problem%20Lightning%20Talk%20-%20James%20Wen%2C%20Spotify.pdf)
 
-- presentation: https://static.sched.com/hosted_files/kccnceu19/9d/Kubernetes%20Jobs%20and%20the%20Sidecar%20Problem%20Lightning%20Talk%20-%20James%20Wen%2C%20Spotify.pdf
+#### 
+
 ## Keynotes
 
-### Keynotes 100, 21.05.2019
+#### Keynotes 100, 21.05.2019
 
 - openebs, container attached storage
 - linkerd: service mesh observability, security etc.,
@@ -32,7 +34,7 @@ Notes, links etc. by me, Natalie Fioretti
 - cisco: network service mesh, access complicated L2/L3 k8s services, ignore vlan, routing, etc.
 ## Sessions
 
-#### sessionname
+### sessionname
 ## Keywords
 
 - ebpf (routing, tracing), https://static.sched.com/hosted_files/kccnceu19/b8/KubeCon-Europe-2019-Beatriz_Martinez_eBPF.pdf, e.g. https://www.redhat.com/en/blog/introduction-ebpf-red-hat-enterprise-linux-7
